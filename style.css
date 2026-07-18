@@ -7,11 +7,10 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(135deg, #050505, #003b1f);
+    background: linear-gradient(135deg, #050505, #001b3d);
     color: white;
     padding: 20px;
 }
-
 
 /* Header */
 header {
@@ -21,15 +20,14 @@ header {
 
 header h1 {
     font-size: 40px;
-    color: #00ff88;
-    text-shadow: 0 0 15px #00ff88;
+    color: #3ea6ff;
+    text-shadow: 0 0 15px #3ea6ff;
 }
 
 header p {
-    color: #aaa;
+    color: #b8c2cc;
     margin-top: 8px;
 }
-
 
 /* Main */
 main {
@@ -37,24 +35,21 @@ main {
     margin: auto;
 }
 
-
 /* Card */
 .card {
     background: rgba(0, 0, 0, 0.45);
-    border: 1px solid rgba(0, 255, 136, 0.3);
+    border: 1px solid rgba(62, 166, 255, 0.35);
     border-radius: 15px;
     padding: 25px;
     margin-bottom: 20px;
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 20px rgba(0,255,136,0.15);
+    box-shadow: 0 0 20px rgba(62, 166, 255, 0.18);
 }
-
 
 .card h2 {
-    color: #00ff88;
+    color: #3ea6ff;
     margin-bottom: 15px;
 }
-
 
 /* IP Display */
 #ip {
@@ -64,18 +59,16 @@ main {
     margin: 15px 0;
 }
 
-
 /* Info */
 .info p {
     margin: 10px 0;
     color: #ddd;
 }
 
-
 /* Button */
 button {
-    background: #00ff88;
-    color: black;
+    background: #3ea6ff;
+    color: white;
     border: none;
     padding: 12px 20px;
     border-radius: 10px;
@@ -85,21 +78,18 @@ button {
     transition: 0.3s;
 }
 
-
 button:hover {
-    background: white;
-    box-shadow: 0 0 15px #00ff88;
+    background: #6bbcff;
+    box-shadow: 0 0 15px #3ea6ff;
     transform: scale(1.05);
 }
-
 
 /* Result */
 #result {
     margin-top: 15px;
-    color: #00ff88;
+    color: #3ea6ff;
     word-break: break-word;
 }
-
 
 /* Footer */
 footer {
@@ -108,9 +98,8 @@ footer {
     color: #777;
 }
 
-
 /* Mobile */
-@media(max-width:600px){
+@media (max-width: 600px) {
 
     header h1 {
         font-size: 32px;
