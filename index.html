@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Tools - Network Utility</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌐 IP Tools</h1>
+        <p>Network Information Dashboard</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>🌍 Your IP Address</h2>
+            <div id="ip">
+                Loading...
+            </div>
+            <button onclick="getIP()">Refresh IP</button>
+        </section>
+
+
+        <section class="card">
+            <h2>📡 Network Information</h2>
+
+            <div class="info">
+                <p><b>Country:</b> <span id="country">-</span></p>
+                <p><b>City:</b> <span id="city">-</span></p>
+                <p><b>ISP:</b> <span id="isp">-</span></p>
+                <p><b>Timezone:</b> <span id="timezone">-</span></p>
+            </div>
+
+        </section>
+
+
+        <section class="card">
+            <h2>🛠 Tools</h2>
+
+            <button onclick="userAgent()">
+                Browser Info
+            </button>
+
+            <button onclick="screenInfo()">
+                Screen Info
+            </button>
+
+            <p id="result"></p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>IP Tools © 2026</p>
+    </footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
